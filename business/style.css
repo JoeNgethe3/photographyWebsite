@@ -1,0 +1,160 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Flexbox division*/
+.header{
+    display: flex;
+}
+.logo{
+    flex-basis: 10%;
+}
+.nav-bar{
+    flex-basis: 90%;
+}
+.part2{
+    display: flex;
+}
+.texts{
+    flex-basis: 20%;
+    display: flexbox;
+}
+.image{
+    flex-basis: 80%;
+    text-align: right;
+}
+
+
+/*niceties*/
+/* 1. clean up the navbar. */
+.header{
+    background-color: black;
+    /*background: url(images/Joe4web1.png);*/
+    opacity: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+}
+.nav-bar{
+    /*here enters code*/
+}
+
+
+/*logo section*/
+.logo{
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.logo p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/*navbar links anchor tags*/
+ul{
+    text-align: right;
+    padding: 20px 10px 10px 10px;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+.header .nav-bar a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.navbar a:hover{
+    color: #ff523b;
+}
+
+/*now to the image and slogan*/
+.image img{
+    width: /*594px */638px ;
+    margin: 23px 16px 0 0;
+}
+/*now the slogan*/
+.slogan{
+    margin: 150px 0 0 150px;
+    /*display: inline-block;*/
+    display: flex-box;
+}
+.italics{
+    margin: 0 0 0 150px;
+}
+.button{
+    margin: 50px 0 0 150px;
+}
+.slogan h1{
+    font-size: 60px;
+    font-family: Unset;
+
+}
+.slogan strong{
+    color: #ff523b;
+    opacity: calc(100%);
+}
+em{
+    padding: 30px 0 0 0;
+    margin-top: 0;
+    font-size: 15px;
+}
+.btn{
+    text-decoration: none;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*display: inline-block;*/
+    background: /*#ff523b*/ black;
+    color: #fff;
+    font-weight: bolder;
+    padding: 8px 30px;
+    /*margin: 0 0 0 134px;*/
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+
+/*the newsbox section*/
+.newsbox{
+    background-color: black;
+    display: flex;
+    margin: -10px 0px 0px 0px;
+    color: whitesmoke;
+    opacity: calc(70%);
+}
+h3{
+    font-size: 15px;
+    padding: 10px;
+}
+.events{
+    flex-basis: 33.33%;
+    padding: 26px;
+    padding-top: 40px;
+    font-size: 12px;
+}
+.newsbox .events p{
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn:hover{
+    background-color: #ff523b;
+}
+
+/*footer section*/
+.footer{
+    background-color: black;
+    display: flex;
+    color: white;
+}
+.column{
+    flex-basis: 33.33%;
+    padding: 20px 20px 20px 20px;
+}
